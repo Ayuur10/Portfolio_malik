@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Malik Yahia Cherif - Étudiant en BUT GEII passionné par les nouvelles technologies et l'ingénierie">
+    <title>Portfolio - Malik Yahia Cherif</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #0066ff, #00ccff);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            background: #0066ff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        button:hover {
+            background: #0044cc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Malik Yahia Cherif</h1>
+        <p>Étudiant en BUT GEII | Passionné par l'innovation et l'ingénierie</p>
+        <nav>
+            <ul>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#education">Formations</a></li>
+                <li><a href="#experience">Expériences</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>À Propos</h2>
+        <p>Étudiant en BUT Génie Électrique et Informatique Industrielle, je suis passionné par les nouvelles technologies et l'innovation dans les domaines de l'IT et de l'énergie.</p>
+    </section>
+    
+    <section id="education">
+        <h2>Formations Académiques</h2>
+        <p><strong>Université Paris-Est Créteil</strong> - BUT GEII (2022 - En cours)</p>
+        <p><strong>Lycée François Arago</strong> - Baccalauréat STI2D (2020-2021)</p>
+    </section>
+    
+    <section id="experience">
+        <h2>Expériences & Projets</h2>
+        <div>
+            <h3>Laboratoire CERTES - Recherche & Développement</h3>
+            <p>Tests de caractérisation des batteries, modélisation avec MATLAB et Ansys, automatisation des résultats avec Python.</p>
+        </div>
+        <div>
+            <h3>UPEC - Maintenance d'un Système Embarqué</h3>
+            <p>Conception d'un tableau de bord Excel, analyse des performances.</p>
+        </div>
+        <div>
+            <h3>UPEC - Étude d'un Panneau Solaire Photovoltaïque</h3>
+            <p>Extraction des valeurs caractéristiques, analyse de l'uniformité de l'illumination.</p>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <h2>Compétences</h2>
+        <ul>
+            <li>Langues : Français, Anglais (Technique)</li>
+            <li>Énergie : Monophasé, Triphasé, Électronique de puissance</li>
+            <li>Informatique : VHDL, Python, C, C++, HTML, SQL</li>
+            <li>Conception électronique : LTSpice, KiCad</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Téléphone : +33 7 66 07 34 31</p>
+        <p>Email : malik.yahia@icloud.com</p>
+        <form>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>© 2024 Malik Yahia Cherif | Portfolio</p>
+    </footer>
+</body>
+</html>
